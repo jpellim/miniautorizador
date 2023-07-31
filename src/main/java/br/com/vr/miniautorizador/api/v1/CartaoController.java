@@ -16,7 +16,7 @@ import java.math.BigDecimal;
 
 @RestController
 @Tag(name = "Cartao Controller", description = "Controller responsável pelas requisições ao serviço de cartões.")
-@RequestMapping("/v1/cartoes")
+@RequestMapping("/cartoes")
 @RequiredArgsConstructor
 public class CartaoController {
 

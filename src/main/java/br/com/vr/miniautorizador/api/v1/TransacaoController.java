@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @Tag(name = "Transacao Controller", description = "Controller responsável pelas requisições ao serviço de transações.")
-@RequestMapping("/v1/transacoes")
+@RequestMapping("/transacoes")
 @RequiredArgsConstructor
 public class TransacaoController {
 

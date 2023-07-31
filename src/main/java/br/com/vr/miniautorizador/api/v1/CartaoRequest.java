@@ -10,13 +10,13 @@ import lombok.Data;
 public class CartaoRequest {
 
     @NotNull
-    private Long numero;
+    private Long numeroCartao;
     @NotBlank
     private String senha;
 
     Cartao toModel() {
         Cartao cartao = Cartao.builder()
-                .numero(numero)
+                .numero(numeroCartao)
                 .senha(senha)
                 .build();
         return cartao;
